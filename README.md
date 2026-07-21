@@ -9,7 +9,7 @@ Attached are the deliverables for the Calendly integration as outlined in the AR
 2. `calendly_tools.json` - Contains the tool definitions for `calendly_list_event_types`, `calendly_create_invitee`, and `check_availability`.
 3. `test-calendly.js` - A standalone script to verify API credentials and connectivity.
 
-### Integration Checklist (For CATI Team):
+### Integration Checklist (For CATI AI Team):
 As per the external tool guide, please apply the following to integrate this module:
 * **models/Integration.js**: Add `'calendly'` to the type enum and add `calendly: ['apiKey']` to `SENSITIVE_FIELDS`.
 * **routes/integrations.js**: Add `'calendly'` to `VALID_TYPES` and implement the switch case to route to `calendlyService.execute()`.
